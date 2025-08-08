@@ -68,3 +68,18 @@ User must be logged in before they can add, view, update, or delete student deta
 - Run the local server.
 
 ---
+## Install required dependencies:
+
+- pip install -r requirements.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver
+
+## API Documentation:
+- Swagger UI is available at
+    - http://127.0.0.1:8000/swagger/
+    
+- Redoc is available at
+    - http://127.0.0.1:8000/redoc/
+    
