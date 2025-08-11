@@ -27,7 +27,7 @@ schema_view = get_schema_view(
         default_version='v1',
         description="API documentation for Student CRUD and Login system",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="your_email@example.com"),
+        contact=openapi.Contact(email="tharun43gowda@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
